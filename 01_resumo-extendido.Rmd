@@ -1,0 +1,240 @@
+---
+title: "Panorama da Apresentação"
+description: |
+  Resumo expandido da apresentação oral
+author:
+  - name: "Ícaro Vidal Freire"
+    url: https://github.com/icaro-freire
+    affiliation: UFRB
+    affiliation_url: https://www.ufrb.edu.br/portal/
+  - name: "Jaqueline"
+    url:
+    affiliation: UFRB
+    affiliation_url: https://www.ufrb.edu.br/portal/
+  - name: "Yuri"
+    url:
+    affiliation: UFRB
+    affiliation_url: https://www.ufrb.edu.br/portal/
+date: "`r Sys.Date()`"
+output: 
+  distill::distill_article:
+    toc: true
+bibliography: references.bib
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+### Resumo
+Paul Draper, filosofo americano, construiu uma cadeia de argumentação que pretende estabelecer uma relação probabilistica entre Evolução, Existência do Mal e Existência de Deus. 
+Basicamente, este autor considera que a Evolução e o Mal no mundo são evidências contra o teísmo. 
+Na realidade vai um pouco além: pretende estabelecer que, dada a Evolução, é mais plausível o Naturalismo do que o Teísmo.
+Alvin Plantinga, filosofo analítico americano, em seu livro _Ciência, Religião e Naturalismo: onde está o conflito?_, numa breve parte do Capítulo 2, tece críticas ao Argumento levantado por Draper, no que se refere às considerações sobre a evolução.
+Explanaremos, em nosso seminário, as nuances do Argumento de Draper e a resposta de Plantinga.
+
+**Palavras-chaves:** Existência de Deus; O problema do Mal; Evolução; Teísmo; Naturalismo.
+
+# 1. Introdução
+
+Paul Draper, em seu artigo _Evolution and the Problem of Evil_ [@draper], diferencia dois tipos de prova sobre o debate da Existência de Deus: provas _lógicas_ e provas _evidênciais_.
+Nas provas lógicas, pretende-se estabelecer uma inconsistência lógica entre proposições (uma contradição).
+Por exemplo, **teísmo** e **evolução** são logicamente consistentes?
+Draper admite que essa possibilidade é razoável, ou seja, é possível admitir que a existência de Deus e o que se entende por evolução sejam compatíveis, logicamente falando.
+Surge, então, uma outra forma de argumentação: pretende-se estabelecer uma incompatibilidade em termos _probabilísticos_, não mais em termos lógicos.
+Draper basei-se na evolução como um fato que, junto com o mal no mundo, são evidências de que é implausível a existência de Deus.
+Daí, dada a ínfima probabilidade de compatibilidade, é imperioso rechaçar o teísmo.
+
+Os argumentos usados por Draper foram considerados "interessantes" por Plantinga [@ciencia], embora criticados por este.
+E, para entendermos esse "reconhecimento" da parte de Plantinga ao trabalho de Draper, precisamos entender o contexto da crítica.
+
+Em seu livro _Ciência, Religião e Naturalismo: onde está o conflito?_, Plantinga separa dois capítulos para tratar diretamente se há um conflito entre a Evolução e a crença Cristã.
+Antes de analisar os argumentos de Draper, Plantinga analisa os argumentos não profissiionais (sem uma mínima estruturação proposicional) de Dawkins e Dannett.
+Tal análise, faz com que Plantinga, reconheça a estruturação adequada que Draper desenvolveu.
+
+A crítica de Plantinga ao argumento evolucionário de Draper contra o teísmo, faz parte, como vimos, de uma análise mais ampla que envolve a ideia de que a evolução não é incompatível com a fé cristã.
+Todavia, Plantinga desenvolve sua crítica ao argumento probabilístico de Draper por duas vertentes:
+
+  1. Expõe uma possível ocultação (ou, pelo menos, um não comprometimento argumentativo) da parte de Draper em analisar a tese do teísmo ser *não contingente*. Plantinga afirma que se Draper assume tal tese, ou seja, que o teísmo ou é *necessariamente* verdadeiro, ou é *necessariamente falso*; sua proposição de que a "probabilidade da Evolução, dado o Naturalismo é muito maior do que a probabilidade daquela, dado o Teísmo" é **falsa**. Na realidade, mostra que o teísmo seria necessariamente verdadeiro.
+  2. Mesmo na suposição da validade dos argumentos de Draper, a conclusão não interfere na refutação do teísmo, visto que Plantinga contrabalanceia as argumentações com fatos mais prováveis no teísmo do que no naturalismo.
+  
+Tal linha de argumentação, como veremos, sugere-nos uma presente fragilidade em provas ditas evidenciais, visto que uma proababilidade condicional sempre é passível de mudanças, dada uma atualização do espaço amostral analisado.
+
+# 2. Sobre o argumento de Draper
+
+As críticas de Plantinga ao argumento evidencial de Draper usam termos e simbologias próprias da lógica modal ou da probabilidade epistêmica.
+Isso pode causar dúvidas legítimas em passagens cruciais, embora a argumentação geral não seja prejudicada.
+
+## 2.1 Preliminares
+
+### 2.1.1 Conceitos da Lógica
+
+Um dos conceitos abordados é o de proposições *não contingentes*.
+Uma *proposição*, a grosso modo, é toda frase (com sujeito, verbo e predicado; não interrogativa ou exclamativa) que pode ser classificada ou como **V** (verdadeira), ou como **F** (falsa).
+As proposições relacionam-se entre si por meios de *conectivos* ou *modificadores*, formando outras proposições.
+
+Um conectivo usado por Draper é a *conjunção*, denotado por "$\&$".
+Nele, a proposição resultante é verdadeira quando *ambas* são verdadeiras.
+
+Já o modificador, representado por Draper pelo símbolo "$\sim$", troca os valores lógicos de uma próposição. 
+Por exemplo, se a proposição $p$ assume o valor lógico **V**, então $\sim p$ assume o vaor lógico **F**, e vise-versa.
+
+Para exemplificação dos termos, considere a tabela a seguir:
+
+| p | q | ~p | p & q | p & ~p | ~(p & ~p) |
+|:-:|:-:|:--:|:-----:|:------:|:---------:|
+| V | V |  F |   V   |    F   |     V     |
+| V | F |  F |   F   |    F   |     V     |
+| F | V |  V |   F   |    F   |     V     |
+| F | F |  V |   F   |    F   |     V     |
+
+Temos duas proposições $p$ e $q$, que assumem diversos valores lógicos.
+A terceira coluna é a *negação* da proposição $p$; a quarta coluna é o resultado da *cunjunção* daquelas proposições; a quinta coluna é a conjunção de $p$ com sua negação; e, por fim, a sexta coluna é a negação da quinta coluna.
+Observe que as proposições que se encontram na terceira ou quarta coluna, assumem valores lógicos **V** ou **F**, mas as proposições da quinta ou sexta colunas assumem *apenas* um dos valores lógicos (no caso, a quinta coluna assume apenas o valor lógico **F**; e, na sexta coluna, apenas o valor lógivo **V**).
+
+Quando uma proposição assume **apenas** um dos valores lógicos, é denominada **não contingente** (ou *necessárias*), caso contrário, ou seja, caso uma proposição possa assumir qualquer dos valores lógicos, dizemos que é **contingente**.
+Assim, as proposições da terceira ou quarta coluna da tabela acima são *contingentes*; e, as colunas cinco e seis são *não contingentes*.
+Em particular, quando uma proposição *não contingente* assume apenas o valor lógivo **V** é denominada **verdade necessária** (ou *tautologia*); caso assuma apenas o valor lógivo **F**, dizemos **falsidade necessária** (ou *contradição*).
+
+### 2.1.1 Conceitos de Probabilidade
+
+Um dos conceitos de probabilidade usados por Draper é o de *probabilidade condicional*.
+Aqui usaremos, para dsesenvolver tal conceito, a já conhecida ideia frequentista de probabilidade de ocorrencia de um evento $E$, a saber, "a razão entre o *número de cados favoráveis*, pelo *número de cados possíveis*".
+
+O tipo de prbabilidade envolvida no Argumento de Draper, é do tipo *a posteriori*, ou seja, calculamos a probabilidade depois de alguma informação extra, advinda do experimento.
+Queremos, então, calcular a probabilidade de certo evento $A$ ocorrer, dado (ou na certeza de) que ocorreu o evento $B$.
+Denotamos essa ideia por $\Pr{(A \mid B)}$.
+Ora, como é sabido que ocorreu o evento $B$, a ocorrencia do evento $A$ estaria na intersecção desses eventos, ou seja, na ocorrencia simultânea entre $A$ **e** $B$.
+Assim, o número de casos *favoráveis* é o número de elementos do conjunto $A \& B$, e o número de casos *possíveis* resume-se ao número de elementos do conjunto $B$.
+Por esse motivo, define-se a probabilidade condicional como:
+
+\begin{equation}
+  \Pr{(A \mid B)} = \frac{\Pr{(A \& B)}}{\Pr{(B)}} (\#eq:dado)
+\end{equation}
+
+Obviamente, $\Pr{(B)} \neq 0$, para que haja uma boa definição, matematicamente falando.
+
+Existem muitas propriedades que decorrem dessa definição.
+Dentre elas, Draper usa uma bem curiosa:
+
+\begin{equation}
+  \Pr{\big((A \& B) \mid C \big)} = 
+  \Pr{(B \mid C)} \cdot \Pr{\big(A \mid (B \& C)\big)} (\#eq:prop)
+\end{equation}
+
+Muito provavelmente, Draper usa tal expressão dentro do contexto da lógica epistêmica, como um dos axiomas da teoria de probabilidade que usa, por exemplo, a função de Popper para relacionar as proposições com os números reais [@popper].
+Todavia, pode ser deduzida usando a definição em \@ref(eq:dado).
+
+## 2.2 O argumento de Draper, criticado por Plantinga
+
+Plantinga lista as definições propostas por Draper: $E$ para *evolução*; $T$ para *teísmo*; $N$ para *naturalismo* e $S$ para *criação especial* (do inglês, *Special Creation*).
+
+É importante destacar que, em seu artigo original, Draper delimita o uso do que se entende por "evolução".
+Basicamente ele junta duas ideias: a *genealógica* (a vida complexa evoluiu de uma vida relativamente simples) e a *genética* (as mudanças ocorrem em nível genético, ou seja, houve um acúmulo de pequenas e sutis mudanças que ao longo do tempo geraram a diversidade das espécies).  
+Ele não leva em consideração a ideia "darwvinista" sobre evolução, a saber, que
+a *seleção natural* operando em mutação genética aleatória é o principal mecanismo que conduz a mudança evolutiva.
+Segundo Draper, apenas a conjunção entre as ideias genealogica e genética são suficientes para sustentar seu argumento evidencial contra o teísmo.
+
+Plantinga destaca o seguinte trecho do artigo de Draper:
+
+> Minha posição é que a evolução é uma evidência que favorece mais o naturalismo que o teísmo. 
+Há, em outras palavras, um bom argumento evidencial favorável ao naturalismo e contra o teísmo.
+
+Plantinga ainda destaca a proporção que Draper aponta, embora não deixe explicito as razões por trás dessa escolha (talvez por entender que são absolutamente subjetivas): a hipótese é que a evolução é pelo menos *duas vezes* mais provável no naturalismo do que no teísmo.
+
+Especificamente, Draper se propõe a mostrar que:
+
+\begin{equation}
+  \Pr{(E \mid N)}\; >!\; \Pr{(E \mid T)} (\#eq:tese)
+\end{equation}
+
+Sendo que o símbolo "$>!$" possui o significado: "muito maior do que".
+Ou seja, a Equação \@ref(eq:tese) pode ser lida assim: "A probabilidade da Evolução ser verdadeira dado o Naturalismo é MUITO MAIOR DO QUE a probabilidade da Evolução ser verdadeira dado o Teísmo".
+
+Mas, para mostrar essa relação, ele usa o resultado da Equação \@ref(eq:prop) em cada parcela da Equação \@ref(eq:tese).
+
+Entretanto, antes desse desenvolvimento de Draper, Plantinga levanta um ponto que Draper não considerou em sua argumentação: a possibilidade do teísmo ser *não contingente*.
+
+É natural que Draper, autodeclarado agnóstico, considere o teísmo como sendo *contingente*, ou seja, que não é uma proposição *necessariamente falsa* , nem tampoco *necessariamente verdadeira*.
+Mas, Plantinga argumenta que para o teísta, em particular o cristão ortodoxo, o teísmo é *não contingente*: ou *necessariamente verdadeiro*, ou *necessariamente falso*.
+Plantinga percebe que se Draper considerasse tal suposição, sua afirmação em \@ref(eq:tese) mostraria, na realidade, que o teísmo é *necessariamente verdadeiro*.
+
+Para isso, Plantinga considera a seguinte proposição, que denominaremos de "afirmação crucial":
+
+> a probabilidade de uma proposição contingente, dada uma falsidade necessária, é 1.
+
+Ambos os autores veem a Evolução como uma proposição contingente, além disso, obviamente, a afirmação em \@ref(eq:tese) implica que $\Pr{(E \mid T)} < 1$, visto que a probabiliadde máxima é 1.
+Mas, de acordo com a afirmação crucial de Plantinga, essa última desigualdade implica que o teísmo **não** é uma *falsidade necessária* (se fosse, seria igual a 1).
+Mas, como Plantinga está considerando o teísmo como *não contingente*, se ele não é *necessariamente falso*, então é *necessariamente verdadeiro*.
+
+Percebemos que a afirmação crucial de Plantinga é fundamental para o desenvolvimento da argumentação.
+Todavia, há críticas sobre essa afirmação, sendo uma delas o fato de que a mesma não seria igual a 1, mas indefinida (veja @daniel, ou @tyler).
+Todavia, mesmo que tal afirmação crucial seja falsa, não influencia na crítica da argumentação levantada por Draper.
+
+Então, após essas considerações, Plantinga concede a contingência ao teísmo, para considerar as argumentações de Draper.
+
+Para sustentar a afirmação em \@ref(eq:tese), Draper considera a ideia da "criação especial", ($S$), ou seja, a hipótes de que "alguns seres vivos relativamente complexos não descendem de organismos unicelulares relativamente simples, mas foram criados independentemente por uma pessoa sobrenatural".
+Com essa definição e com a edifição que Draper faz sobre a Evolução, podemos afirmar que $E \subset\; \sim\!\! S$, ou seja, a Evolução implica na negação da criação especial, ou melhor, a Evolução está contida na negação da criação especial.
+Sendo assim, tem-se: $E = E\, \cap\sim\!\! S$, ou, usando a notação adotada por Draper: $E=E\,\&\sim \!S$.
+Portanto, usando a propriedade \@ref(eq:prop) nos dois lados da equação \@ref(eq:tese), como apontamos anteriormente, temos:
+
+\begin{align}
+  \Pr{(E \mid N)} &= \Pr{\big((E\,\&\sim \!S) \mid N\big)} = \Pr{(\sim\!\! S \mid N)}\cdot \Pr{(E \mid\, \sim\!\! S \,\&\, N)} \\
+  \Pr{(E \mid T)} &= \Pr{\big((E\,\&\sim \!S) \mid T\big)} = \Pr{(\sim\!\! S \mid T)}\cdot \Pr{(E \mid\, \sim\!\! S \,\&\; T)}
+\end{align}
+
+Assim, para mostrar \@ref(eq:tese), basta mostra que:
+
+\begin{equation}
+  \Pr{(\sim\!\! S \mid N)}\cdot \Pr{(E \mid\, \sim\!\! S \,\&\, N)} 
+  \; >! \;
+  \Pr{(\sim\!\! S \mid T)}\cdot \Pr{(E \mid\, \sim\!\! S \,\&\; T)} (\#eq:longa)
+\end{equation}
+
+Existem diversos caminhos para mostrar essa relação.
+O caminho adotado por Draper é admitir que $\Pr{(E \mid\, \sim\!\! S \,\&\, N)} \geq \Pr{(E \mid\, \sim\!\! S \,\&\; T)}$, bastando provar que $\Pr{(\sim\!\! S \mid N)} >! \Pr{(\sim\!\! S \mid T)}$.
+Em particular, para essa última desigualdade, Draper sustenta que $\Pr{(\sim\!\! S \mid N)}$ é, pelo menos, duas vezes maior do que $\Pr{(\sim\!\! S \mid T)}$.
+
+Os motivos pelos quais Draper sustenta tais proposições são, de acordo com Plantinga, totalmente arbitrárias e subjetivas.
+Tanto que a estratégia que Plantinga usa para criticar tais alegações são tomadas em duas direções.
+
+A primeira direção é aceitar as alegações e questionar: o que de fato demonstra?
+Plantinga afirma que, no máximo, isso acarretaria que o teísmo é *improvável*.
+
+Antes de prosseguir com a crítica de Plantinga, é importante notarmos alguns detalhes das afirmações anteriores.
+Uma prova evidencial, relacionada a probabilidade condicional, está intrinsecamente ligada às informações apresentadas: a cada atualização de informações, a probabilidade muda.
+
+Plantinga, então, afirma que as afirmações probabilisticas alegadas por Draper são "ficções", especificamente quando este afirma "se tudo o mais for igual quanto às evidências".
+Plantinga lista situações em que certos eventos são mais prováveis no Teísmo do que no Naturalismo e, não apenas duas vezes mais, antes em "várias ordens de magnitude".
+Por exemplo, a existência de vida na Terra; a existência de seres inteligentes; a existência de seres morais e a existência de pessoas que prestam culto a Deus.
+
+# 3. Conclusão
+
+Plantinga, então conclui:
+
+> Há muitos outros "fatos conhecidos” que conferem mais plausibilidade ao teísmo que ao naturalismo. 
+Nesse caso, portanto, as evidencias mais favoráveis ao naturalismo que ao teísmo, citadas por Draper, são mais que contrabalançadas pelas evidências mais favoráveis ao teísmo que ao naturalismo.
+
+Uma ilustração de como a probabilidade condicional é influenciada pelas informações atualizadas, é a seguinte:
+
+Suponha as válidas as informações de que:
+
+  (a) André mora em Ipiaú; 
+  (b) 92% dos Ipiauenses não sabem atirar. 
+
+O que poderíamos afirmar em relação à proposição: " (c) André sabe atirar"?
+  
+Ora, dada apenas as informações (a) e (b), podemos afirmar que a probabilidade de André saber atirar é baixa (menor ou igual a 8%).
+
+Entratato, a crescente agora duas outras informações extras:
+
+  (d) André é Policial Rodoviário Federal (PRF);
+  (e) 99.99% dos PRF sabem atirar.
+
+Dada a atualização das informações, a probabilidade de André saber atirar é extremamente alta.
+
+Do exposto, nota-se a fragilidade das *provas evidenciais*, mesmo se os argumentos evidenciais sejam verdadeiros.
+
+Assim, mesmo a ideia da Evolução, não implica necessariamente a plausibilidade do Naturalismo.
+Algumas outras hipóteses convenientes (e questionáveis) sempre são postas na argumentação, o que enfraquece o argumento como um todo. 
+Então, mesmo que em algum momento a argumentação do Plantinga não esteja tão clara para mim, as conclusões do Draper são forçadas e dependentes de um conjunto de considerações construídas arbitrariamente para favorecer seu argumento.

@@ -1,0 +1,25 @@
+---
+title: "Críticas ao Argumento de Draper"
+description: |
+  Seria a Evolução mais provável em um mundo sem Deus, ou ela só poderia existir por causa Dele? `r emo::ji("thinking")`
+site: distill::distill_website
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{r, fig.align='center', out.width='50%'}
+knitr::include_graphics("img/logo_contraponto.svg")
+```
+
+# Algumas palavras sobre esse website
+
+Esse _website_ é uma tentativa de organização dos arquivos da apresentação oral **Críticas ao Argumento de Draper**, exposta no _I Seminário Contraponto Ciência e Fé_, promovido pelo _GRECIFE_ (Grupo de Estudos sobre Integração entre Ciência e Fé Cristã) da [Universidade Federal do Recôncavo da Bahia][UFRB], no [Centro de Formação de Professores][CFP].
+
+- **Data do Evento:** 09 a 10 de julho de 2021.
+- **Site do Evento:** Para mais informações, inclusive sobre a programação, acesse [`r emo::ji("link")` aqui][SITE]
+
+[UFRB]: https://www.ufrb.edu.br/portal/
+[CFP]: https://www.ufrb.edu.br/cfp/
+[SITE]: https://sites.google.com/ufrb.edu.br/i-seminario-contraponto/p%C3%A1gina-inicial?authuser=0

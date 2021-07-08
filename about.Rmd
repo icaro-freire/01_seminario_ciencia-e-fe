@@ -1,0 +1,13 @@
+---
+title: "Sobre"
+description: |
+  Como foi feito esse website?
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+- Falar da Linguagem R
+- GitHub
+- Distill

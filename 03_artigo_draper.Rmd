@@ -1,0 +1,195 @@
+---
+title: "Evolução e o Problema do Mal"
+description: |
+  Tentativa de tradução (de parte) do artigo "Evolution and the Problem of Evil". 
+author:
+  - name: Paul Draper 
+    url: https://example.com/norajones
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Evolução
+
+Desde a publicação de _A Origem das Espécies_, de Darwin, inúmeros teólogos, filósofos e cientistas têm apontado que a evolução pode ser o meio pelo qual Deus escolheu criar os seres humanos e o resto do mundo vivo.
+Isso pode mostrar que, embora a verdade da evolução refute a história bíblica da criação contada no livro do Gênesis, de forma alguma ameaça a crença mais geral de que o universo foi criado por Deus.
+Em outras palavras, não fornece razão para duvidar do teísmo.
+A plausibilidade desse argumento se reflete no fato de que muitos cientistas são evolucionistas e teístas.
+Comentando sobre esse fato, Stephen Jay Gould diz:
+
+> A menos que pelo menos metade dos meus colegas seja burra, não pode haver - nas bases empíricas mais cruas e diretas - nenhum conflito entre ciência e religião. 
+Conheço centenas de cientistas que compartilham a convicção sobre o fato da evolução e a ensinam da mesma maneira. 
+Entre essas pessoas, noto todo um espectro de atitudes religiosas - desde a oração e adoração diárias devotas ao ateísmo resoluto. 
+Ou não há correlação entre a crença religiosa e a confiança na evolução - ou metade dessas pessoas são tolas."
+
+O que Gould esquece de mencionar é que muitas pessoas bem-educadas, incluindo muitos dos colegas de Gould na extremidade irreligiosa do espectro, rejeitam o teísmo precisamente porque acreditam na evolução.
+Por exemplo, William B. Provine, um importante historiador da ciência, afirma que aqueles que mantêm suas crenças religiosas enquanto aceitam a evolução "têm que verificar [seus] cérebros na porta da igreja".
+
+Então, quem está correto?
+São compatíveis, como Gould e o pregador liberal Henry Ward Beecher, que afirmou em 1885 que a evolução "mudará a teologia, mas apenas para trazer à tona o simples templo de Deus em linhas e proporções mais claras e bonitas"?
+Ou são incompatíveis como Provine e o pregador fundamentalista William Jennings Bryan, que certa vez definiu a "evolução teísta" como "um anestésico que amortece a dor do paciente enquanto o ateísmo remove sua religião"?
+Minha própria posição, como sugerem minhas observações introdutórias, fica em algum lugar entre a visão de que a evolução teísta é um casamento feliz e a visão de que deve terminar em divórcio.
+Eu concordo com os compatibilistas que teísmo e evolução são logicamente consistentes.
+O que eu discordo é a inferência do compatibilista de "nenhuma inconsistência" a "nenhum conflito".
+Pois, embora a consistência implique que a verdade da evolução não refuta o teísmo - que não há nenhum bom argumento _lógico_ da evolução contra o teísmo, assim como não há nenhum bom argumento lógico do mal contra o teísmo - não implica que a verdade da evolução não seja evidência em tudo contra o teísmo.
+Minha posição é que a evolução é uma evidência que favorece o naturalismo ao invés do teísmo.
+Em outras palavras, há um bom argumento _evidencial_ da evolução contra o teísmo.
+
+Por "evolução" quero dizer a conjunção de duas teses.
+A primeiroa, que chamarei de "a tese genealógica", afirma que a evolução de fato ocorreu (a vida complexa evoluiu de uma vida relativamente simples).
+Especificamente, é a visão de que todos os organismos multicelulares e todos os organismos unicelulares (relativamente) complexos na terra (tanto presentes quanto passados) são os descendentes (mais ou menos) modificados gradualmente de um pequeno número de organismos unicelulares relativamente simples.
+A segunda tese, que chamarei de "a tese genética", aborda a questão de como a evolução ocorreu.
+Afirma que toda mudança evolutiva em populações de organismos complexos é ou é o resultado de mudança genética transgeracional (ou, para ser mais preciso, mudança transgeracional em ácidos nucléicos).
+É importante distinguir esta afirmação sobre os mecanismos pelos quais a evolução ocorre, da afirmação muito mais específica de que a seleção natural operando em mutação genética aleatória é o principal mecanismo que conduz a mudança evolutiva (ou o principal mecanismo que conduz a mudança evolutiva que resulta em aumento da complexidade )
+Vamos chamar esta afirmação mais específica de "Darwinismo" e sua conjunção com a evolução de "evolução darwiniana".
+
+Muitos argumentos evolucionários contra o teísmo apelam para a evolução darwiniana ao invés de apenas para a evolução.
+Acredito que tais argumentos superestimam a força das evidências a favor do darwinismo.
+O darwinismo pode ser altamente provável na suposição de que o naturalismo é verdadeiro.
+Mas é muito menos provável na suposição de que o teísmo é verdadeiro, porque no teísmo há uma possibilidade real de que Deus guiou a evolução causando diretamente a ocorrência de várias mudanças genéticas.
+Assim, qualquer argumento contra o teísmo que seja baseado na verdade do darwinismo é, na melhor das hipóteses, uma petição de princípio.
+É por isso que meu argumento apela apenas à evolução, e não à evolução darwiniana.
+É minha convicção (que não vou defender aqui) que a evidência para a evolução, ao contrário da evidência para a evolução darwiniana, é esmagadora - tão esmagadora que a evolução pode ser legitimamente tomada como um fato em vez de mera teoria com o propósito de argumentar contra o teísmo.
+
+A reivindicação específica que desejo defender é a seguinte:
+
+>Antecedentemente, a evolução é muito mais provável na suposição de que o naturalismo é verdadeiro do que na suposição de que o teísmo é verdadeiro.
+
+Por "antecedentemente" quero dizer "independentemente das observações e testemunhos que juntos constituem a evidência primária sobre a qual o que sabemos sobre a evolução, bem como a conexão entre dor e prazer e sucesso reprodutivo, se baseia."
+Assim, pretendo abstrair de nossas informações sobre reprodução seletiva e outras mudanças dentro de populações de animais, bem como o que sabemos sobre a distribuição geográfica de seres vivos, homologias, o registro fóssil, evidências genéticas e bioquímicas, adaptações imperfeitas e vestígios de órgãos.
+A abstração adicional a respeito da dor e do prazer é necessária porque, no final, combinarei meu argumento a respeito da evolução com um argumento a respeito da conexão sistemática entre dor e prazer e sucesso reprodutivo.
+Será feita a afirmação de que a evolução e essa conexão são, tomadas em conjunto, muito mais provavelmente no naturalismo do que no teísmo.
+Um último ponto. Nenhuma outra abstração do que sabemos é pretendida.
+Por exemplo, não pretendo abstrair do nosso conhecimento que existe vida complexa de várias formas, nem do nosso conhecimento de que esta vida nem sempre existiu.
+É uma questão interessante e difícil se esses fatos são evidências a favor do teísmo em relação ao naturalismo, mas essa questão está além do escopo deste artigo.
+
+Seja "$T$", "$N$", e "$E$" representado por teísmo, naturalismo e evolução, seja "$\Pr {(p)}$" representado pela probabilidade antecedente de $p$ ser verdadeiro, e seja $\Pr{(p \mid q)}$ a probabilidade antecedente de $p$ ser verdadeiro na suposição de que $q$ é verdadeiro.
+Finalmente, deixe $>!$ representar ‘‘é muito maior do que''. 
+A reivindicação que desejo defender agora pode ser reafirmado da seguinte forma:
+
+$$\Pr{(E \mid N)} >! \Pr{(E \mid T)}$$
+
+Minha estratégia para provar essa afirmação requer mais um símbolo e mais uma definição.
+Deixe $S$ representar o criacionismo especial, ou seja, a afirmação de que alguns seres vivos relativamente complexos não descendem de organismos unicelulares relativamente simples, mas sim foram criados independentemente por uma pessoa sobrenatural.
+(O uso da palavra "independentemente" aqui significa não apenas que a criação em questão viola a continuidade genealógica, mas também que envolve a intervenção direta da divindade na ordem natural.)
+Uma vez que a evolução implica que o criacionismo especial é falso, alguns teoremas básicos do cálculo de probabilidade nos dão:
+
+$$\Pr{(E \mid N)} >! \Pr{(E \mid T)} \quad \text{ se, e somente se, }\\ 
+\Pr{(\sim S \mid N)} \cdot \Pr{(E \mid \sim S \& N)} \;>!\;
+\Pr{(\sim S \mid T)} \cdot \Pr{(E \mid \sim S \& T)} $$
+
+Minha estratégia para estabelecer $\Pr{(E \mid N)} >! \Pr{(E \mid T)}$, será mostrar que $\Pr{(\sim S \mid N)} >! \Pr{(\sim S \mid T)}$ e que $\Pr{(E \mid \sim S \& N)} >! \Pr{(E \mid \sim S \& T)}$.
+Em outras palavras, mostrarei tanto que o criacionismo especial é antecedentemente muito mais provável de ser falso no naturalismo do que no teísmo e que, mesmo na suposição de que o criacionismo especial é falso, a evolução ainda é antecedentemente pelo menos tão provável de ser verdadeira no naturalismo como é no teísmo.
+
+Visto que o naturalismo implica que nenhum ser sobrenatural existe, ele implica que o criacionismo especial é falso.
+Assim, a falsidade do criacionismo especial é antecedentemente certa no naturalismo: $\Pr{(\sim S \mid N)} = 1$.
+Mas, no teísmo, o criacionismo especial pode, pelo que sabemos anteriormente, ser verdadeiro: $\Pr{(\sim S \mid T)} < 1$.
+Assim, a falsidade do criacionismo especial é antecedentemente mais provável no naturalismo do que no teísmo, o que implica que a falsidade do criacionismo especial é alguma evidência a favor do naturalismo sobre o teísmo - aumenta a razão da probabilidade do naturalismo para a probabilidade do teísmo.
+Mas quão forte é essa evidência? A falsidade do criacionismo especial é _muito_ mais provável no naturalismo do que no teísmo?
+Mostrarei que $\sim S$ é pelo menos duas vezes mais provável antecedentemente no naturalismo do que no teísmo, isso implica que, pelo menos, duplica a razão entre a probabilidade do naturalismo e a probabilidade do teísmo.
+Uma vez que $\Pr{(\sim S \mid N)} = 1$, minha tarefa é mostrar que $\Pr{(\sim S \mid T)} \leq 1/2$, o que significa que $\Pr{(S \mid T)} \geq 1/2$ - que, independente da evidência para a evolução, o criacionismo especial é pelo menos tão provável quanto não, na suposição de que o teísmo é verdadeiro.
+Para defender essa afirmação, primeiro avaliarei algumas razões antecedentes para acreditar que Deus, assumindo que ele existe, não criou quaisquer seres vivos complexos independentemente.
+Então, mostrarei que temos uma razão antecedente muito forte para acreditar que Deus, supondo que ele exista, criou especialmente.
+
+À primeira vista, parece que a evidência da evolução é a única razão forte que os teístas têm para acreditar que Deus não é um criador especial (o que significa que não temos fortes razões _antecedentes_ para acreditar nisso).
+Afinal, pelo que sabemos anteriormente, Deus pode ter escolhido criar de várias maneiras diferentes.
+Por exemplo, embora ele possa ter criado a vida de uma forma consistente com a continuidade genealógica, ele também pode ter criado cada espécie independentemente.
+Ou ele pode ter criado certos tipos básicos de forma independente, permitindo a mudança evolutiva, incluindo mudanças resultando em novas espécies, dentro desses tipos.
+Ou ele pode ter criado independentemente apenas algumas espécies ou mesmo apenas uma única espécie, humanos talvez.
+Antecedentemente - isto é, independente da evidência da evolução - parece que não temos razão alguma para pensar que um criador onipotente, onisciente e moralmente perfeito preferiria a evolução ou qualquer outra abordagem "naturalista" para uma dessas formas de criação especial.
+
+Alguns teístas, entretanto, estão bastante confiantes em bases puramente _a priori_ de que Deus não é um criador especial.
+De acordo com Diogenes Allen e Howard J. Van Till, por exemplo, o criacionismo especial era implausível mesmo antes de a evidência para a evolução ser descoberta, porque é uma implicação da "racionalidade" de Deus ou de seu _status_ como criador ao invés de "membro do universo" que Deus "cria um universo com membros que estão coerentemente conectados."
+Esta coerência impede a intervenção de Deus na ordem natural e, portanto, impede qualquer tipo de criação especial, incluindo a criação daquelas primeiras formas de vida simples das quais toda a vida subsequente evoluiu.
+Assim, de acordo com esses teístas, o único tipo de explicação dos fenômenos naturais que os cientistas teístas deveriam procurar são aquelas que são consistentes com o naturalismo.
+Em suma, esses teístas são naturalistas metodológicos comprometidos
+
+Não acho esses argumentos nada convincentes.
+Que possível justificativa poderia ser dada para pensar que, se Deus fosse a causa imediata de um evento natural, isso reduziria o status de Deus de criador a "membro do universo"?
+Além disso, o que a racionalidade de Deus tem a ver com isso?
+Talvez a ideia seja que, assim como um fabricante de automóveis perfeitamente racional produziria um carro que nunca precisaria de seu tanque de gasolina cheio, ou de seu filtro de ar substituído, um criador perfeitamente racional faria um universo que funcionasse por conta própria.
+Mas, esse carro seria preferível porque abastecer com gasolina ou substituir peças tem um custo em termos de tempo, energia e assim por diante.
+Um criador onipotente e onisciente não teria essas preocupações.
+Em geral, o que conta como um universo racional ou perfeito ou defeituoso depende dos objetivos do criador.
+Qual objetivo ou plano de Deus seria melhor servido por um universo no qual Deus nunca intervém?
+Claro, a liberdade humana pode colocar limitações na quantidade e tipo de intervenções de Deus.
+Mas isso não exclui a criação especial.
+Pelo que sabemos, Deus pode ter algum objetivo que é promovido pelas leis da natureza que temos, mas essas leis são tais que não produzirão por si mesmas o tipo de vida complexa que Deus deseja.
+Se fosse esse o caso, então Deus criaria independentemente essa vida.
+Certamente, tal intervenção no curso da natureza não entraria em conflito com o status de Deus como criador ou com sua racionalidade.
+Nem significaria que o universo é de alguma forma defeituoso ou inferior aos universos nos quais Deus nunca intervém.
+
+Outro teísta que sustenta que temos razões anteriores para acreditar que Deus não realizaria nenhum ato criativo especial é o filósofo Ernan McMullin.
+Em resposta à defesa de Alvin Plantinga do criacionismo especial, McMullin diz que "do ponto de vista teológico e filosófico, tal intervenção é, se alguma coisa, _improvável_ anteriormente."
+McMullin afirma que "os textos eloqüentes de _Gênesis_, _Jó_, _Isaías_ e _Salmos_" apóiam sua posição, porque "O Criador cujos poderes são gradualmente revelados nesses textos é onipotente e onisciente, muito além do alcance do cálculo humano .
+Sua Providência se estende a todas as Suas criaturas; eles são todos parte de Seu plano único, apenas um fragmento do qual sabemos, e de forma sombria. ''
+Mas como isso deveria apoiar sua posição nunca é explicado.
+Parece fazer o oposto, uma vez que qualquer alegação de saber que Deus nunca interviria na ordem natural será difícil de justificar se estivermos tão no escuro sobre os planos de Deus quanto estes textos sugerem.
+
+A propósito, acho interessante que, quando confrontados com argumentos contra o teísmo baseados na ideia de que é anteriormente improvável que Deus permitiria o mal hediondo, os filósofos teístas são rápidos em sugerir que, uma vez que Deus é onisciente, os humanos não estão em posição de fazer tal julgamento.
+No entanto, se devemos acreditar em Allen e Van Till (McMullin tem suas dúvidas), então os humanos estão em posição de julgar que é anteriormente improvável que Deus criaria qualquer forma de vida independentemente!
+Pessoalmente, acho que a alegação de que a tortura de crianças inocentes é improvável no teísmo é muito mais plausível do que a alegação de que o criacionismo especial é improvável no teísmo.
+
+O problema com as objeções teístas ao criacionismo especial consideradas até agora é que todas envolvem especulação teológica ou filosófica _a priori_, cuja direção é influenciada demais pela conclusão desejada.
+Na verdade, essas tentativas de fazer a criação especial parecer incompatível com o teísmo não são mais objetivas e nem mais plausíveis do que a tentativa de William B. Provine de fazer a evolução parecer incompatível com o teísmo.
+Enquanto Allen, Van Till e McMullin afirmam que Deus nunca interviria na natureza para criar vida, Provine afirma que a ideia de um Deus que "age através das leis da natureza" é "inútil" e "equivalente a ateísmo."
+Quão conveniente!
+
+Uma tentativa mais séria de mostrar que o criacionismo especial é antecedentemente improvável no teísmo é _a posteriori_ por natureza.
+Sabemos por experiência passada que Deus, se existe, tem pelo menos tendências deístas latentes.
+Afinal, a teleologia foi eliminada das ciências físicas muito antes de Darwin escrever _A origem das espécies_.
+E mesmo independentemente das evidências da evolução, há evidências consideráveis de que vários processos biológicos funcionam muito bem sem a intervenção divina.
+Em geral, mesmo independente da evidência em que a evolução se baseia, a história da ciência é uma história de sucesso para as explicações naturalistas e de fracasso para as sobrenaturalistas.
+Assim, temos uma boa razão antecedente a posteriori para acreditar que, supondo que o teísmo seja verdadeiro, Deus não intervém na natureza.
+
+Eu acredito que o sucesso passado da ciência naturalística fornece alguma razão para os teístas acreditarem que Deus não é um criador especial.
+Mas é fácil superestimar a força dessa razão, especialmente para teístas intelectuais que devem admitir viver em uma era "pós-mitológica" ou então correr o risco de serem pessoalmente responsabilizados pela situação de Galileu.
+Mas, deixando de lado a propaganda científica, é importante lembrar o quão pouco sabemos realmente sobre a história causal do universo!
+Se não fosse pela evidência da evolução, nossa amostra de explicações naturalistas bem-sucedidas me parece muito pequena para justificar uma grande confiança na afirmação de que, assumindo que Deus existe, Deus não é um criador especial.
+É claro que vale a pena mencionar que, se estou subestimando o sucesso da busca por explicações naturalistas, então os teístas dificilmente escapam ilesos.
+Pois se a busca por tais explicações foi tão bem-sucedida que qualquer explicação sobrenatural de um fenômeno natural é implausível, mesmo na suposição de que o teísmo é verdadeiro, então isso seria uma evidência poderosa contra o teísmo.
+Pois tal sucesso extraordinário seria antes muito mais provável no naturalismo - o que implica que todas as explicações sobrenaturalistas são falsas - do que no teísmo.
+
+Mais especificamente, entretanto, acredito que os teístas têm uma razão antecedente muito forte para acreditar que Deus criou pelo menos alguma vida complexa independentemente.
+Pois a divisão entre a vida consciente e não-consciente é enormemente significativa se o teísmo for verdadeiro.
+Teísmo implica um dualismo metafísico extremo - uma mente existia antes do mundo físico e era responsável por sua existência.
+Assim, partindo do pressuposto de que o teísmo é verdadeiro, é provável que as mentes sejam fundamentalmente entidades não físicas e, portanto, que a vida consciente seja fundamentalmente diferente da vida não-consciente.
+Mas isso, por sua vez, torna provável que as coisas vivas conscientes não sejam apenas os descendentes geneticamente modificados de coisas vivas não conscientes - que a vida consciente tenha sido criada independentemente.
+E uma vez que o criacionismo especial é definido como a posição de que pelo menos alguma vida complexa foi criada independentemente, segue-se que, na suposição de que o teísmo é verdadeiro, é antecedentemente provável que o criacionismo especial seja verdadeiro.
+
+O dualismo inerente ao teísmo pode explicar por que tantos teístas foram atraídos pela ideia do criacionismo especial antes (e em muitos casos mesmo depois) da descoberta da evidência da evolução.
+Pois esse dualismo apóia uma visão dualística da natureza humana - uma visão que deve ter feito a ideia de que somos o efeito da alteração dos ácidos nucléicos de organismos unicelulares parecer ridícula.
+A prole não precisa ser idêntica a seus pais, mas certamente a mudança genética não pode resultar no cruzamento de linhas metafísicas fundamentais!
+Assim, mesmo que saibamos por experiência passada que Deus, supondo que ele exista, geralmente não intervém na natureza, o tipo de metafísica pressuposta pelo teísmo torna antecedentemente provável que Deus tenha intervido no mundo físico a fim de criar um mundo mental dentro dele.
+Portanto, não é surpreendente que, antes de Darwin, muitos teístas eram criacionistas especiais.
+Eles tinham uma boa razão e nós temos uma boa razão anterior para acreditar que Deus, supondo que ele ou ela exista, realizou pelo menos um ato criativo especial.
+Assim, $\Pr{(S \mid T)} \geq 1/2$.
+E isso implica que a falsidade do criacionismo especial é pelo menos duas vezes mais provável antecedentemente no naturalismo do que no teísmo: $\Pr{(\sim S \mid N)} \geq 2 \cdot \Pr{(\sim S \mid T)}$.
+
+Lembre-se disso, a fim de mostrar que $\Pr{(E \mid N)} >! \Pr{(E \mid T)}$, é suficiente mostrar primeiro que $\Pr{(\sim S \mid N)} >! \Pr{(\sim S \mid T)}$ e depois que $\Pr{(E \mid \sim S \& N)} \geq \Pr{(E \mid \sim S \& T)}$.
+Concluí a primeira dessas duas tarefas.
+Passando para a segunda, estamos agora assumindo que o criacionismo especial é falso e perguntando qual a probabilidade da evolução no naturalismo e no teísmo.
+Obviamente, o naturalismo afirma que o criacionismo especial é falso, então a negação do criacionismo especial combinado com o naturalismo $(\sim S \& N)$ é simplesmente naturalismo $(N)$.
+Chamarei a negação do criacionismo especial conjugado com o teísmo $(\sim S \& T)$ de "teísmo regular".
+Portanto, minha tarefa é mostrar que a evolução é antecedentemente pelo menos tão provável no naturalismo quanto no teísmo regular.
+
+Mesmo que o teísta regular conceda que essas considerações favorecem o naturalismo, ele pode contestar que nunca foi provado que a evolução naturalista é biologicamente possível.
+Talvez a evolução não pudesse ter produzido vida complexa sem assistência sobrenatural.
+Por exemplo, pode-se argumentar que, sem algum ser inteligente guiando a mudança genética, sistemas ordenados tão magníficos como o olho humano nunca teriam evoluído.
+Quanto mais forte a evidência disso, menor a probabilidade antecedente de evolução no naturalismo.
+Não acredito, entretanto, que as evidências para isso sejam muito fortes. É certo que ninguém pode descrever em detalhes exatamente como o olho ou qualquer outro sistema orgânico complexo poderia ter surgido sem assistência sobrenatural.
+E é difícil ver como alguém poderia provar que a evolução pode produzir vida complexa em um universo naturalista.
+Mas ninguém forneceu uma boa razão para pensar que também não poderia.
+(Alguns criacionistas especiais tentaram, mas seus argumentos são muito fracos.)
+Isso não quer dizer que não haja dificuldades reais para a evolução naturalística.
+(Por exemplo, é notoriamente difícil explicar como a reprodução sexual evoluiu.)
+É apenas para dizer que ninguém deu uma boa razão para acreditar que as soluções naturalistas para esses problemas não serão encontradas.
+Na verdade, o fato de que soluções plausíveis foram encontradas para alguns desses problemas (por exemplo, o problema do comportamento altruísta) dá ao naturalista razão para otimismo.
+Portanto, qualquer vantagem que os problemas enfrentados pela evolução naturalista dêem ao teísmo regular é mais do que compensada pelas considerações a favor do naturalismo mencionadas acima.
+Todas as coisas consideradas, então, a modesta conclusão de que a evolução é pelo menos tão provável antecedentemente no naturalismo quanto no teísmo regular é justificada.
+Portanto, uma vez que a falsidade do criacionismo especial é antecedentemente muito mais provável no naturalismo do que no teísmo, segue-se pelas razões explicadas anteriormente que a evolução é antecedentemente muito mais provável no naturalismo do que no teísmo.
+
+

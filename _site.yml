@@ -1,0 +1,27 @@
+name: "01_seminario_ciencia-e-fe"
+title: "Contraponto"
+description: |
+
+output_dir: "docs"
+navbar:
+  logo:
+    image: img/logo_contraponto.svg
+    href: index.html
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "Materiais"
+      menu:
+        - text: "Resumo Expandido"
+          href: 01_resumo-extendido.html
+        - text: "Preliminares"
+        - text: "Artigo de Draper"
+          href: 03_artigo_draper.html
+        - text: "Artigo de Plantinga"
+    - text: "Sobre"
+      href: about.html
+    - icon: fab fa-github
+      href: https://github.com/icaro-freire/01_seminario_ciencia-e-fe.html
+output:
+  distill::distill_article:
+    toc: true
