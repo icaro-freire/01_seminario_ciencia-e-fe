@@ -101,7 +101,7 @@ Em particular, quando uma proposição *não contingente* assume apenas o valor 
 Um dos conceitos de probabilidade usados por Draper é o de *probabilidade condicional*.
 Aqui usaremos, para dsesenvolver tal conceito, a já conhecida ideia frequentista de probabilidade de ocorrencia de um evento $E$, a saber, "a razão entre o *número de cados favoráveis*, pelo *número de cados possíveis*".
 
-O tipo de prbabilidade envolvida no Argumento de Draper, é do tipo *a posteriori*, ou seja, calculamos a probabilidade depois de alguma informação extra, advinda do experimento.
+O tipo de probabilidade envolvida no Argumento de Draper, é do tipo *a posteriori*, ou seja, calculamos a probabilidade depois de alguma informação extra, advinda do experimento.
 Queremos, então, calcular a probabilidade de certo evento $A$ ocorrer, dado (ou na certeza de) que ocorreu o evento $B$.
 Denotamos essa ideia por $\Pr{(A \mid B)}$.
 Ora, como é sabido que ocorreu o evento $B$, a ocorrencia do evento $A$ estaria na intersecção desses eventos, ou seja, na ocorrencia simultânea entre $A$ **e** $B$.
